@@ -1,0 +1,26 @@
+{
+  "dark": {
+    "background": "#282828",
+    "foreground": "#FFFFFF",
+    "button_background": "#505050",
+    "button_active_background": "#606060",
+    "correct_answer_background": "green",
+    "incorrect_answer_background": "red"
+  },
+  "light": {
+    "background": "#FFFFFF",
+    "foreground": "#282828",
+    "button_background": "#e0e0e0",
+    "button_active_background": "#d0d0d0",
+    "correct_answer_background": "lightgreen",
+    "incorrect_answer_background": "pink"
+  },
+  "russian_language": {
+    "background": "#F5F5DC",
+    "foreground": "#4B2E83",
+    "button_background": "#D4AF37",
+    "button_active_background": "#B8860B",
+    "correct_answer_background": "#3CB371",
+    "incorrect_answer_background": "#DC143C"
+  }
+}
