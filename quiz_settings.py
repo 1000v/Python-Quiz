@@ -11,6 +11,23 @@ import threading
 pygame.mixer.init()
 
 
+
+foder1 = 'resources'
+foder2 = 'scenarios'
+foder3 = 'resources/data'
+foder4 = 'resources/data/win'
+foder5 = 'resources/data/lose'
+foder6 = 'resources/sounds'
+
+for folder in [foder1, foder2, foder3, foder4, foder5, foder6]:
+  try:
+    os.makedirs(folder, exist_ok=True) 
+    print(f"Папка '{folder}' создана (или уже существовала).")
+  except OSError as error:
+    print(f"Ошибка при создании папки '{folder}': {error}")
+
+
+
 def load_settings():
     settings_path = os.path.join("resources", "settings.json")
     if os.path.exists(settings_path):
